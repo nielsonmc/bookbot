@@ -8,7 +8,6 @@ from stats import (
 
 def main():
     args = sys.argv
-    #print(f"args list len: {len(args)}")
     if len(args) != 2:
         print("Usage: python3 main.py <path_to_book>")
         sys.exit(1)
